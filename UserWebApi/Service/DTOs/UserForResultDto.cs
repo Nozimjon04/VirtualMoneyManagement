@@ -1,5 +1,4 @@
 ﻿
-
 namespace UserWebApi.Service.DTOs
 {
     public class UserForResultDto

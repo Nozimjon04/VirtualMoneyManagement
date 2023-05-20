@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using System.Linq.Expressions;
+using UserWebApi.DAL.IRepositories;
 using UserWebApi.Service.DTOs;
 using UserWebApi.Service.Exceptions;
-using UserWebApi.UserWebApi.Data.IRepositories;
+using UserWebApi.Service.Interfaces;
 using UserWebApi.UserWebApi.Domain.Models;
-using UserWebApi.UserWebApi.Service.Interfaces;
 
-namespace UserWebApi.UserWebApi.Service.Services
+
+namespace UserWebApi.Service.Services
 {
 	public class UserService : IUserService
 	{

@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+# Entity Framework Core Migrations
+**/Migrations/*.cs
+**/Migrations/*.resx
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -361,4 +366,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/VirtualMoneyManagement.sln

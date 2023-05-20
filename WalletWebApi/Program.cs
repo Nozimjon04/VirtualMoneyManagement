@@ -3,6 +3,7 @@ using WalletWebApi.DAL.Contexts;
 using WalletWebApi.DAL.IRepositories;
 using WalletWebApi.DAL.Repositories;
 using WalletWebApi.Mappers;
+using WalletWebApi.Middlewares;
 using WalletWebApi.Service.Interfaces;
 using WalletWebApi.Service.Services;
 
@@ -32,7 +33,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<ExceptionHandlerMiddleWare>();
 app.UseAuthorization();
 
 app.MapControllers();

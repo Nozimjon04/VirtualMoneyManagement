@@ -2,7 +2,7 @@
 using UserWebApi.Service.DTOs;
 using UserWebApi.UserWebApi.Domain.Models;
 
-namespace UserWebApi.UserWebApi.Service.Interfaces
+namespace UserWebApi.Service.Interfaces
 {
 	public interface IUserService
 	{
