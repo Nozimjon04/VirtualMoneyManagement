@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using UserWebApi.Helpers;
 using UserWebApi.Service.DTOs;
-using UserWebApi.Service.Interfaces;
+using UserWebApi.UserWebApi.Service.Interfaces;
 
 namespace UserWebApi.Controllers
 {

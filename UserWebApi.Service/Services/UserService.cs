@@ -1,14 +1,12 @@
 ﻿using AutoMapper;
 using System.Linq.Expressions;
-using UserWebApi.DAL.IRepositories;
 using UserWebApi.Service.DTOs;
 using UserWebApi.Service.Exceptions;
-using UserWebApi.Service.Interfaces;
+using UserWebApi.UserWebApi.Data.IRepositories;
 using UserWebApi.UserWebApi.Domain.Models;
-using WalletWebApi.Service.Interfaces;
-using WalletWebApi.Service.Services;
+using UserWebApi.UserWebApi.Service.Interfaces;
 
-namespace UserWebApi.Service.Services
+namespace UserWebApi.UserWebApi.Service.Services
 {
 	public class UserService : IUserService
 	{

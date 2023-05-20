@@ -2,7 +2,7 @@
 using UserWebApi.Service.DTOs;
 using UserWebApi.UserWebApi.Domain.Models;
 
-namespace UserWebApi.Service.Mappers
+namespace UserWebApi.UserWebApi.Service.Mappers
 {
 	public class MappingProfile : Profile
 	{

@@ -1,7 +1,5 @@
 ﻿using UserWebApi.UserWebApi.Domain.Commons;
 
-using WalletWebApi.Domain.Models;
-
 namespace UserWebApi.UserWebApi.Domain.Models
 {
     public class User : Auditable

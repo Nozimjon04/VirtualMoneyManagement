@@ -1,15 +1,14 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
-using UserWebApi.DAL.Contexts;
-using UserWebApi.DAL.IRepositories;
-using UserWebApi.DAL.Repositories;
 using UserWebApi.Helpers;
 using UserWebApi.Middlewares;
-using UserWebApi.Service.Interfaces;
-using UserWebApi.Service.Mappers;
-using UserWebApi.Service.Services;
-using UserWebApi.UserWebApi.Domain.Models;
+using UserWebApi.UserWebApi.Data.Contexts;
+using UserWebApi.UserWebApi.Data.IRepositories;
+using UserWebApi.UserWebApi.Data.Repositories;
+using UserWebApi.UserWebApi.Service.Interfaces;
+using UserWebApi.UserWebApi.Service.Mappers;
+using UserWebApi.UserWebApi.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
